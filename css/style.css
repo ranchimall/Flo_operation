@@ -1,0 +1,61 @@
+.h3{text-decoration: underline;
+font-size:large;}
+
+sm-select{
+   max-width:  50%;
+   margin-left: 25%;
+}
+
+sm-input{
+    width: 50%;
+    margin-left: 25%;
+}
+sm-button{
+    width: 25%;
+    margin-left: 38%;
+}
+
+.innerhtml{
+    width: 100%;
+    scroll-behavior: smooth;
+    contain: content;
+    font-weight: bold;
+}
+
+.popup{
+    color:var(--accent-color);
+    text-decoration: underline;
+    cursor: pointer;
+}
+.h{
+    color: gray;
+    font-size: medium;
+    text-decoration: underline;
+}
+@media screen and (min-width:200px) and (max-width:900px)
+{
+    sm-input{
+        width: 100%;
+        margin-left:0px;
+        display:block;
+    }
+}
+@media screen  and (max-width:480px)
+{
+    sm-button{
+        width:70%;
+        margin-left: 35px;
+        align-items: center;
+    }
+    .option{
+        margin-left: auto;
+    }
+}
+.al1{
+    color: gray;
+    font-weight: lighter;
+    font-style: italic;
+}
+.option{
+    margin-left: 25%;
+}

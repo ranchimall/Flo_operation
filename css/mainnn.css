@@ -1,0 +1,66 @@
+
+h3{text-decoration:underline;}
+
+.generate{
+    font-size: large;
+    text-align:left;
+
+    justify-content: left;
+}
+
+.print
+{
+    text-align:center;
+    font-weight: bold;
+}
+
+.innerhtml
+{
+    font-weight: bold;
+    text-align: center;
+    contain: content;
+    margin-left:10px;
+    margin-right: 10px;
+    margin-bottom:20px;
+    }
+
+sm-button{
+    width: 20%;
+    margin-left: 40%;
+}
+
+sm-input{
+    width: 50%;
+    margin-left: 25%;
+contain:content;
+}
+
+sm-popup
+{  
+    font-family: sans-serif;
+    font-style: italic;
+    scroll-behavior: smooth;
+}
+.readmore{cursor: pointer;
+color:var(--accent-color);
+text-decoration: underline;
+}
+ul{margin-left: 20px;
+}
+.h53{font-weight: bold;}
+@media screen and (min-width:200px) and (max-width:900px)
+{
+    sm-input{
+        width: 100%;
+        margin-left:0px;
+        display:block;
+    }
+}
+@media screen  and (max-width:480px)
+{
+    sm-button{
+        width:70%;
+        margin-left: 0px;
+        align-items: center;
+    }
+}

@@ -1,0 +1,149 @@
+
+sm-input {
+  margin-bottom: 1em;
+}
+
+sm-button {
+  margin-top: 1rem;
+}
+
+
+.scroll {
+  overflow-x: scroll;
+}
+
+.keyValuePairs {
+  margin-top: 1em;
+}
+.value111{
+  margin-left: 2%;
+  width: 20%;
+}
+.key{
+  width: 20%;
+}
+
+.pairs {
+  display: flex;
+  align-items: center;
+  margin-top: 1em;
+  
+}
+
+.object-inner-blocks {
+  margin-right: 1em;
+}
+
+.plus {
+  font-size: 2rem;
+  background-color: rgba(var(--text-color), 0.06);
+  color: #696969;
+  width: 1em;
+  height: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  cursor: pointer;
+  margin-top: -15px;
+}
+
+h1 {
+  border-bottom: 1px solid #000;
+  padding-bottom: 0.5em;
+  font-size: 2.5rem;
+}
+
+.read{
+  color: var(--accent-color);
+  cursor:pointer;
+  text-decoration: underline;
+}
+.line {
+  width: 100%;
+  height: 0.5px;
+  background-color: #000;
+  margin-top: -0.75em;
+  margin-left: 25%;
+}
+
+.optionsHeading {
+  text-align: center;
+  margin-left: 25%;
+}
+@media (max-width: 320px) {
+  .plus {
+    font-size: 1.5rem;
+    background-color: rgba(var(--text-color), 0.06);
+    color: #696969;
+    width: 3em;
+    height: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  h1 {
+    border-bottom: 1px solid #000;
+    padding-bottom: 0.5em;
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 376px) {
+  .plus {
+    font-size: 1.5rem;
+    background-color: rgba(var(--text-color), 0.06);
+    color: #696969;
+    width: 2.5em;
+    height: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  h1 {
+    border-bottom: 1px solid #000;
+    padding-bottom: 0.5em;
+    font-size: 1.75rem;
+  }
+}
+
+@media (min-width: 376px) and (max-width: 576px) {
+  .plus {
+    font-size: 1.5rem;
+    background-color: rgba(var(--text-color), 0.06);
+    color: #696969;
+    width: 2em;
+    height: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  h1 {
+    border-bottom: 1px solid #000;
+    padding-bottom: 0.5em;
+    font-size: 2rem;
+  }
+}
+
+.demo-inner-blocks1{
+  font-weight: bold;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+@media screen and (max-width:900px){
+  .demo-inner-blocks1{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+.otpr{
+  margin-left: 40%;
+}

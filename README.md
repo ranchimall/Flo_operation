@@ -251,33 +251,3 @@ The object data corresponding with Object Name must be defined in floGlobals.app
 `requestApplicationData` requests application data from the cloud.
 1. options - (optional, options detailed at end of module)
 
-### SEND GENERAL DATA PARAMETERS AND OPTIONS
-Parameters while sending
-
- * `Message`: Actual Message to be sent
- * `Type`: User defined type (anything that user wants to classify as type) 
-
-#### Options
- * `receiverID` - receiver of the data 
- * `application` - name of the application sending the general data
- * `comment` - user comment for the data
- 
- ### REQUEST GENERAL DATA PARAMETERS AND OPTIONS
-
-Parameters while requesting
-
- * `Type`: User defined type (retrieves all data of that type which the sender might have used in SEND DATA phase) 
-
-#### request options
- * `receiverID` - receiver FLO ID of the data. ReceiverID is always a single value in our cloud design
- * `senderIDs` - array of senderIDs. This must be in an array even if a single senderID is requested
- * `application` - name of the application that sent the general data 
- * `comment` - comments for the data
- * `lowerVectorClock` - VC from which the data is to be requested
- * `upperVectorClock` - VC till which the data is to be requested
- * `atVectorClock` - VC at which the data is to requested
- * `mostRecent` - boolean (true: request only the recent data matching the pattern. Just the last one)
- * `callback(){}` - will initialize websocket for automatic updates. 
- * `callback: fnToUseTheData` - will initialize websocket for automatic updates, and will alse execute fnToUseTheData 
- 
- 

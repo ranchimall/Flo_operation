@@ -280,31 +280,4 @@ Parameters while requesting
  * `callback(){}` - will initialize websocket for automatic updates. 
  * `callback: fnToUseTheData` - will initialize websocket for automatic updates, and will alse execute fnToUseTheData 
  
- ### RESET or UPDATE OBJECT DATA PARAMETERS AND OPTIONS
-Parameters while resetting or updating
- * `Object Name`: Name of the object with data populated in floGlobals.appObjects[objectName] 
  
-Note: The object data corresponding with Object Name must be defined in floGlobals.appObjects[objectName] before a reset or update can be done 
-
-#### Options
- * `receiverID` - receiver FLO ID of the data.  If this is not specified, the admin ID will be taken as receiverID 
- * `application` - name of the application for sending the object data
- * `comment` - comment for the object data
- 
- ### REQUEST OBJECT DATA PARAMETERS AND OPTIONS
-
-#### Mandatory
-`Object Name` 
-
-#### request options
- * `receiverID` - receiver FLO ID of the data. ReceiverID is always a single value in our cloud design.  If this is not specified, the admin ID will be taken as receiverID
- * `senderIDs` - array of senderIDs. This must be in an array even if a single senderID is requested
- * `application` - name of the application for which the object data is intended
- * `comment` - comment for the object data
- * `lowerVectorClock` - VC from which the data is to be requested
- * `upperVectorClock` - VC till which the data is to be requested
- * `atVectorClock` - VC at which the data is to requested
- * `mostRecent` - boolean (true: request only the recent data matching the pattern. Just the last one.)
- * `callback(){}` - will initialize websocket for automatic updates. 
- * `callback: fnToUseTheData` - will initialize websocket for automatic updates, and will alse execute fnToUseTheData   
-## 6. APPLICATION DATA PARAMETERS, OPTIONS AND EXPLANATIONS
